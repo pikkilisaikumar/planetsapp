@@ -1,0 +1,29 @@
+@media all and (max-width: 768px) {
+  .image-url-styling {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .image-url-styling {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+.list-items-one {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.name-heading-one {
+  color: white;
+  font-family: Roboto;
+  font-size: 27px;
+}
+.description-pargraph-one {
+  color: white;
+  font-family: Roboto;
+  text-align: center;
+}
